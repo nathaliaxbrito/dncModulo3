@@ -1,0 +1,130 @@
+
+body{
+
+    margin: 0px;
+    
+}
+
+.bandeira{
+    margin-top: 0;
+    width: 98%;
+    padding: 10px;
+    
+    
+    
+    
+}
+
+#verde{
+    
+    background-color: rgb(8, 133, 35);
+    height: 290px;
+    margin-bottom: 0px;
+}
+
+#amarelo{
+    
+    background-color: rgb(255, 217, 0);
+    height: 290px;
+    
+}
+
+#imagem img{
+    position: absolute;   
+    width: 250px;
+    
+}
+
+#imagem{
+    display: flex;
+    margin-left: 560px;
+}
+
+
+#titulo img{
+  width: 420px;
+  margin-left: 470px;
+  margin-top: 85px;
+  
+}
+
+.tempo{
+
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.timer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    
+    
+}
+
+#dia{
+    position: absolute;
+    margin-left: 625px;
+    margin-top:-250px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+#dias{
+    position: absolute;
+    margin-left: 645px;
+    margin-top:-190px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  white;
+    font-size: 30px;
+    font-weight: bold;
+   
+    
+}
+
+
+
+#hora{
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 210px;
+}
+
+#horas{
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 190px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#minuto{
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 675px;
+}
+
+#minutos{
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 640px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#segundo{
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 1100px;
+}
+
+#segundos{
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 1060px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
